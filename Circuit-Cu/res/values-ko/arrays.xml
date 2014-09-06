@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="fonttype">
+        <item >HMNUS</item>
+        <item >Ubuntu</item>
+        <item >Tahoma (Segoe UI)</item>
+    </string-array>
+    
+    <string-array name="default_true_false">
+        <item >예</item>
+        <item >아니오</item>
+    </string-array>
+    
+	<string-array name="tutorial">
+	    <item name="tutorial_a">Circuit-Cu에 오신것을 환영합니다!</item>
+		<item name="tutorial_b">게임을 배우기 위해서 오셨다고요?</item>
+		<item name="tutorial_c">이 게임은 매우 쉬워요.</item>
+		<item name="tutorial_d">그냥 모든 아이템을 배치해서 요구 전류만 맞춰주면 되요.</item>
+		<item name="tutorial_e">아이템을 배치하는 것은 배치하고 싶은 아이템을 선택하고,</item>
+		<item name="tutorial_f">놓을 자리를 누르면 끝나요!</item>
+		<item name="tutorial_g">이제 배울것은 끝났어요!</item>
+		<item name="tutorial_h">나머지는 하면서!</item>
+	</string-array>
+</resources>

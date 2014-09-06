@@ -29,14 +29,10 @@
     <string name="layout_original_value">원래 값:</string>
     <string name="layout_time_minute">분</string>
     <string name="layout_time_second">초</string>
+    <string name="setting_fonttype">폰트 변경</string>
+   	<string name="setting_fonttype_tip">글꼴을 변경합니다.</string>
+   	<string name="setting_play_bgm">브금 재생</string>
+   	<string name="setting_play_bgm_tip">배경음악 재생의 여부를 결정합니다.</string>
+   	<string name="setting_parent_sound">소리</string>
     <string name="layout_needs_reboot">이 설정은 게임 재시작을 필요로 합니다.</string>
-	<string name="tutorial_a">Circuit-Cu에 오신것을 환영합니다!</string>
-	<string name="tutorial_b">게임을 배우기 위해서 오셨다고요?</string>
-	<string name="tutorial_c">이 게임은 매우 쉬워요.</string>
-	<string name="tutorial_d">그냥 모든 아이템을 배치해서 요구 전류만 맞춰주면 되요.</string>
-	<string name="tutorial_e">아이템을 배치하는 것은 배치하고 싶은 아이템을 선택하고,</string>
-	<string name="tutorial_f">놓을 자리를 누르면 끝나요!</string>
-	<string name="tutorial_g">이제 배울것은 끝났어요!</string>
-	<string name="tutorial_h">나머지는 하면서!</string>
-	
 </resources>

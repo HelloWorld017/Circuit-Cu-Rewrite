@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
     <string-array name="fonttype">
         <item >HMNUS</item>
         <item >Ubuntu</item>
         <item >Tahoma (Segoe UI)</item>
     </string-array>
+    
     <string-array name="default_true_false">
         <item >true</item>
         <item >false</item>
     </string-array>
+    
+    <string-array name="tutorial">
+        <item>Welcome to Circuit Cu!</item>
+		<item>Do you want to learn this game?</item>
+		<item>This game is extremely easy.</item>
+		<item>Just place all components and adjust required voltage.</item>
+		<item>If you want to place a component, just touch the component and</item>
+		<item>touch the place where you want to place the component.</item>
+		<item>You have just learned this game.</item>
+		<item>You will learn left things during playing this game.</item>
+    </string-array>
+    
 </resources>

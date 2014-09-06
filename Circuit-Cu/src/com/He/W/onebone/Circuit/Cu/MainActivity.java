@@ -21,4 +21,8 @@ public class MainActivity extends Activity {
 		return ctxt.getResources().getStringArray(resid);
 	}
 	
+	public static Context getMainActivityContext(){
+		return ctxt;
+	}
+	
 }

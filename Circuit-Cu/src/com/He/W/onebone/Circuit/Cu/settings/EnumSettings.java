@@ -5,8 +5,8 @@ import com.He.W.onebone.Circuit.Cu.R;
 
 public enum EnumSettings {
 	
-	fonttype(EnumSettingParents.LooknFeel, R.string.setting_fonttype, 0, true, true, R.string.setting_fonttype_tip, R.array.fonttype),
-	playBGM(EnumSettingParents.Sound, R.string.setting_play_bgm, 1, true, true, R.string.setting_play_bgm_tip, R.array.default_true_false);
+	fonttype(EnumSettingParents.LooknFeel, R.string.setting_fonttype, 0, 0, true, true, R.string.setting_fonttype_tip, R.array.fonttype),
+	playBGM(EnumSettingParents.Sound, R.string.setting_play_bgm, 1, 1, true, true, R.string.setting_play_bgm_tip, R.array.default_true_false);
 	
 	
 	private EnumSettingParents parent;
@@ -16,8 +16,9 @@ public enum EnumSettings {
 	private boolean visibility;
 	private int tip;
 	private int values;
+	private int origValue;
 	
-	private EnumSettings(EnumSettingParents parent, int name_resid, int id,  boolean needsRestart, boolean visibility, int tip_resid, int values_resid){
+	private EnumSettings(EnumSettingParents parent, int name_resid, int id,  int origValue, boolean needsRestart, boolean visibility, int tip_resid, int values_resid){
 		this.parent = parent;
 		this.name = name_resid;
 		this.id = id;
@@ -25,10 +26,15 @@ public enum EnumSettings {
 		this.visibility = visibility;
 		this.tip = tip_resid;
 		this.values = values_resid;
+		this.origValue = origValue;
 	}
 	
 	public int getId(){
 		return id;
+	}
+	
+	public int getOriginalValue(){
+		return origValue;
 	}
 	
 	public String getName(){
