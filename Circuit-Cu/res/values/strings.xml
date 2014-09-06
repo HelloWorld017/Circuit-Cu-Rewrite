@@ -1,5 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Circuit-Cu</string>
+    <string name="app_name">Circuit Cu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="component_transistor">Transistor</string>
+    <string name="component_resistor">Resistor</string>
+    <string name="component_copper_wire">Copper Wire</string>
+    <string name="component_gold_wire">Gold Wire</string>
+    <string name="component_cog">Cog</string>
+    <string name="component_cog_to_wire">wire &gt; cog converter</string>
+    <string name="component_wire_to_cog">wire &gt; cog converter</string>
+    <string name="component_unknown">Unknown Component</string>
+    <string name="achievement_granted">You have achieved achievement %1</string>
+    <string name="layout_connected_with_leftside">Connected with leftside wire</string>
+    <string name="layout_connected_with_rightside">Connected with rightside wire</string>
+    <string name="layout_connected_with_upside">Connected with upside wire</string>
+    <string name="layout_connected_with_downside">Connected with downside wire</string>
+    <string name="layout_not_connected_with_leftside">Not connected with leftside wire</string>
+    <string name="layout_not_connected_with_rightside">Not connected with rightside wire</string>
+    <string name="layout_not_connected_with_upside">Not connected with upside wire</string>
+    <string name="layout_not_connected_with_downside">Not connected with downside wire</string>
+    <string name="layout_wire_dialog">Wire Configure</string>
+    <string name="layout_transistor_dialog">Transistor Configure</string>
+    <string name="layout_resistor_dialog">Resistor Configure</string>
+    <string name="layout_geerbutton_play">PLAY!</string>
+    <string name="layout_geerbutton_edit">EDIT!</string>
+    <string name="layout_geerbutton_tutorial">How to play</string>
+    <string name="layout_to_main_menu">Main Menu</string>
+    <string name="layout_author">Author:</string>
+    <string name="layout_map_name">Map Name:</string>
+    <string name="layout_time_record">Time Record:</string>
+    <string name="layout_modify_value">Modify</string>
+    <string name="layout_original_value">Original Value : </string>
+    <string name="layout_time_minute">min</string>
+    <string name="layout_time_second">sec</string>
+    <string name="layout_get_maps">Get Map!</string>
+    <string name="layout_credit">Credit</string>
+    <string name="layout_needs_reboot">This needs restart.</string>
+    <string name="layout_modify_component">Modify</string>
+    <string name="layout_delete_component">Delete</string>
+    <string name="layout_add_component">Add</string>
+    <string name="layout_reset_build_state">Reset</string>
+    <string name="layout_build">Build</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+   	<string name="setting_fonttype">Font Type</string>
+   	<string name="setting_fonttype_tip">Change font.</string>
+   	<string name="setting_play_bgm">Play BGM</string>
+   	<string name="setting_play_bgm_tip">Play BGM</string>
+    <string name="tutorial_a">Welcome to Circuit Cu!</string>
+    <string name="tutorial_b">Do you want to learn this game?</string>
+    <string name="tutorial_c">This game is extremely easy.</string>
+    <string name="tutorial_d">Just place all components and adjust required voltage.</string>
+    <string name="tutorial_e">If you want to place a component, just touch the component and</string>
+    <string name="tutorial_f">touch the place where you want to place the component.</string>
+    <string name="tutorial_g">You have just learned this game.</string>
+    <string name="tutorial_h">You will learn left things during playing this game.</string>
+    <string name="version_code">α20140906r0001</string>
 
 </resources>
