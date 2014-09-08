@@ -1,10 +1,12 @@
-package com.He.W.onebone.Circuit.Cu.settings;
+package com.He.W.onebone.Circuit.Cu.parser;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+
+import com.He.W.onebone.Circuit.Cu.settings.EnumSettings;
 
 import android.os.Environment;
 
@@ -30,7 +32,7 @@ public class CCSGenerator {
 			FileOutputStream fos = new FileOutputStream(f);
 			OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
 			BufferedWriter bw = new BufferedWriter(osw);
-			bw.write("Circuit Cu Setting File v1");
+			bw.write("Circuit Cu System File v1");
 			EnumSettings[] Settings = EnumSettings.values();
 			for(int a = 0; a < Settings.length; a++){
 				bw.newLine();
