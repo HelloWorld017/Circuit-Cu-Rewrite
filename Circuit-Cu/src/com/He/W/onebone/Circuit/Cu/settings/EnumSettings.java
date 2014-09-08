@@ -5,8 +5,9 @@ import com.He.W.onebone.Circuit.Cu.R;
 
 public enum EnumSettings {
 	
-	fonttype(EnumSettingParents.LooknFeel, R.string.setting_fonttype, 0, 0, true, true, R.string.setting_fonttype_tip, R.array.fonttype),
-	playBGM(EnumSettingParents.Sound, R.string.setting_play_bgm, 1, 1, true, true, R.string.setting_play_bgm_tip, R.array.default_true_false);
+	font_type(EnumSettingParents.LooknFeel, R.string.setting_fonttype, 0, 0, true, true, R.string.setting_fonttype_tip, R.array.fonttype),
+	show_quote(EnumSettingParents.LooknFeel, R.string.setting_show_quote, 1, 1, false, true, R.string.setting_show_quote_tip, R.array.default_true_false),
+	play_bgm(EnumSettingParents.Sound, R.string.setting_play_bgm, 2, 1, true, true, R.string.setting_play_bgm_tip, R.array.default_true_false);
 	
 	
 	private EnumSettingParents parent;

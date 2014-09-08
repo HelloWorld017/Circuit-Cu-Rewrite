@@ -33,11 +33,16 @@ public class CCSGenerator {
 			OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
 			BufferedWriter bw = new BufferedWriter(osw);
 			bw.write("Circuit Cu System File v1");
+			bw.newLine();
+			bw.append("[Settings]");
 			EnumSettings[] Settings = EnumSettings.values();
 			for(int a = 0; a < Settings.length; a++){
 				bw.newLine();
 				bw.append(Settings[a].getName() + "," + Settings[a].getOriginalValue());
 			}
+			bw.newLine();
+			bw.append("[/]");
+			bw.flush();
 			bw.close();
 			osw.close();
 			fos.close();

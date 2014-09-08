@@ -50,6 +50,8 @@
    	<string name="setting_fonttype_tip">Change font.</string>
    	<string name="setting_play_bgm">Play BGM</string>
    	<string name="setting_play_bgm_tip">Play BGM</string>
+   	<string name="setting_show_quote">Show Quote</string>
+   	<string name="setting_show_quote_tip">Show quote at main screen.</string>
    	<string name="setting_parent_sound">Sounds</string>
     <string name="version_code">α20140906r0001</string>
 

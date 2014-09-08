@@ -4,6 +4,7 @@ package com.He.W.onebone.Circuit.Cu.parser;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
@@ -76,7 +77,7 @@ public class CCSParser {
 					attributes.put(data[0], data[1]);
 				}
 				stringScanner.close();
-				contents.put(tag, attributes);
+				contents.put(tag.toLowerCase(Locale.ENGLISH), attributes);
 				attributes = new TreeMap<String, String>();
 				
 			}
