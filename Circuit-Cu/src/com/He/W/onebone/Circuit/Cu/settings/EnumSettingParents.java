@@ -1,6 +1,6 @@
 package com.He.W.onebone.Circuit.Cu.settings;
 
-import com.He.W.onebone.Circuit.Cu.MainActivity;
+import com.He.W.onebone.Circuit.Cu.activity.MainActivity;
 
 public enum EnumSettingParents {
 	LooknFeel("Look & Feel"), Sound("Sound");

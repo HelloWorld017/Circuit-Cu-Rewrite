@@ -14,8 +14,8 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import com.He.W.onebone.Circuit.Cu.MainActivity;
 import com.He.W.onebone.Circuit.Cu.StackTraceToString;
+import com.He.W.onebone.Circuit.Cu.activity.MainActivity;
 import com.He.W.onebone.Circuit.Cu.exception.ParseException;
 import com.He.W.onebone.Circuit.Cu.parser.CCSGenerator;
 import com.He.W.onebone.Circuit.Cu.parser.CCSParser;
@@ -98,7 +98,7 @@ public class Settings {
 		BufferedReader br = new BufferedReader(isr);
 		String dataType = br.readLine();
 		if(!dataType.startsWith("Circuit Cu System File v")){
-			Toast.makeText(MainActivity.getMainActivityContext(), "Error on Circuit Cu Setting File", Toast.LENGTH_LONG).show();;
+			Toast.makeText(MainActivity.getMainActivityContext(), "Error on Circuit Cu Setting File", Toast.LENGTH_LONG).show();
 			regenSettings(f);
 			System.exit(0);
 		}else{
@@ -108,6 +108,8 @@ public class Settings {
 				regenSettings(f);
 				System.exit(0);
 			}
+			
+			br.reset();
 			
 			TreeMap<String, String> data = CCSParser.parseCCS(br).get("Settings");
 			//data.forEach((k, v) ->flags.put(EnumSettings.valueOf(k), Integer.parseInt(v)));

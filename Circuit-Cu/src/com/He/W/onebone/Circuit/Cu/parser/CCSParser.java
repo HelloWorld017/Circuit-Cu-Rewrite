@@ -46,6 +46,7 @@ public class CCSParser {
 		
 	public static TreeMap<String, TreeMap<String, String>> parseCCS(BufferedReader br) throws ParseException{
 		try{
+			br.readLine();
 			String filecontent = "";
 			String buffer = "";
 			while((buffer = br.readLine()) != null){
@@ -54,7 +55,7 @@ public class CCSParser {
 			TreeMap<String, TreeMap<String, String>> contents = new TreeMap<String, TreeMap<String, String>>();
 			TreeMap<String, String> attributes = new TreeMap<String, String>();
 			
-			Pattern startPattern = Pattern.compile("\\[(.+)\\]"); //[something] supports any unicodes
+			Pattern startPattern = Pattern.compile("\\[[^/]\\]"); //[something] supports any unicodes
 			Matcher startMatcher = startPattern.matcher(filecontent);
 			
 			Pattern endPattern = Pattern.compile("\\[/\\]"); //[/]
@@ -73,6 +74,9 @@ public class CCSParser {
 				Scanner stringScanner = new Scanner(tagBlock);
 				while(stringScanner.hasNextLine()){
 					String s = stringScanner.nextLine();
+					if(s.startsWith("//")){
+						continue;
+					}
 					String[] data = s.split("=");
 					attributes.put(data[0], data[1]);
 				}

@@ -1,7 +1,7 @@
 package com.He.W.onebone.Circuit.Cu.settings;
 
-import com.He.W.onebone.Circuit.Cu.MainActivity;
 import com.He.W.onebone.Circuit.Cu.R;
+import com.He.W.onebone.Circuit.Cu.activity.MainActivity;
 
 public enum EnumSettings {
 	

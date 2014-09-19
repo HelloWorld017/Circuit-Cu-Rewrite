@@ -3,7 +3,7 @@ package com.He.W.onebone.Circuit.Cu.drawable;
 import java.io.File;
 import java.util.HashMap;
 
-import com.He.W.onebone.Circuit.Cu.MainActivity;
+import com.He.W.onebone.Circuit.Cu.activity.MainActivity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
