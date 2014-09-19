@@ -1,7 +1,6 @@
 package com.He.W.onebone.Circuit.Cu.activity;
 
 import com.He.W.onebone.Circuit.Cu.R;
-import com.He.W.onebone.Circuit.Cu.R.layout;
 
 import android.app.Activity;
 import android.content.Context;
