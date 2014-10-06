@@ -22,6 +22,9 @@ public class Drawables {
 		EnumDrawables[] draws = EnumDrawables.values();
 		for(int a = 0; a < draws.length; a++){
 			File f = new File(skinPath + draws[a] + ".png");
+			if(!f.exists()){
+				f = new File(skinPath + draws[a] + ".jpg");
+			}
 			exists.put(draws[a], f.exists());
 		}
 	}
